@@ -11,7 +11,7 @@
         "ge-shuqing": "Ge Shuqing",
         "regan-choy": "Regan Choy",
         "solomon-ng": "Solomon Ng",
-        "jean-doe": "Jean Doe",
+        "chia-york-lim": "Chia York Lim",
         "james-doe": "James Doe"
       },
       "headingKeywords": {}
@@ -165,6 +165,14 @@
       "title": "John Doe's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/yorklim.md",
+      "title": "York Lim's Project Portfolio Page",
+      "headings": {
+        "project-clientcare": "Project: ClientCare"
       },
       "headingKeywords": {}
     },
