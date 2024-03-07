@@ -233,19 +233,19 @@ with(this){return _c('h3',{attrs:{"id":"use-cases"}},[_v("Use cases"),_c('a',{st
 with(this){return _c('p',[_v("(For all use cases below, the "),_c('strong',[_v("System")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ClientCare")]),_v(" and the "),_c('strong',[_v("Actor")]),_v(" is the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("user")]),_v(", unless specified otherwise)")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC01 - Add a new client")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC01 - List all clients")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User requests to add new client.")]),_v(" "),_c('li',[_v("ClientCare adds the new client to the list.")]),_v(" "),_c('li',[_v("ClientCare shows a success message and "),_c('u',[_v("display view of new client details and policies (UC02)")]),_v("."),_c('br'),_v("\nUse case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User requests to view all clients.")]),_v(" "),_c('li',[_v("ClientCare shows a list of all clients."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. ClientCare detects invalid command usage or information.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message.")]),_v(" "),_c('li',[_v("1a2. User enters new data."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. The list is empty as no clients have been added at all."),_c('br'),_v(" "),_c('ul',[_c('li',[_v("1a1. ClientCare notifies that the list is empty."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC02 - View client details and policies")])])}
@@ -263,28 +263,28 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_v("1a. ClientCare detects that the client does not exist or invalid command usage.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message."),_c('br')]),_v(" "),_c('li',[_v("1a2. User enters new data."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: UC03 - List all clients")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC03 - Add a new client")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User requests to view all clients.")]),_v(" "),_c('li',[_v("ClientCare shows a list of all clients."),_c('br'),_v("\nUse case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User requests to add new client.")]),_v(" "),_c('li',[_v("ClientCare adds the new client to the list.")]),_v(" "),_c('li',[_v("ClientCare shows a success message and "),_c('u',[_v("display view of new client details and policies (UC02)")]),_v("."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. The list is empty as no clients have been added at all."),_c('br'),_v(" "),_c('ul',[_c('li',[_v("1a1. ClientCare notifies that the list is empty."),_c('br'),_v("\nUse case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. ClientCare detects invalid command usage or information.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message.")]),_v(" "),_c('li',[_v("1a2. User enters new data."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Find a client by name")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC04 - Find a client by name")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User requests to find a specific client in the list by name")]),_v(" "),_c('li',[_v("ClientCare shows list of client that matches the name"),_c('br'),_v("\nUse case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User requests to find a specific client in the list by name.")]),_v(" "),_c('li',[_v("ClientCare shows list of client that matches the name."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -293,13 +293,13 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_v("2a. The list is empty as there is no matching name found."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Delete a client")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC05 - Delete a client")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User requests to list clients or find client by name")]),_v(" "),_c('li',[_v("ClientCare shows a list of clients")]),_v(" "),_c('li',[_v("User requests to delete a specific client in the list by index")]),_v(" "),_c('li',[_v("ClientCare deletes the client"),_c('br'),_v("\nUse case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User requests to "),_c('u',[_v("list all clients (UC01)")]),_v(" or "),_c('u',[_v("find client by name (UC04)")]),_v(".")]),_v(" "),_c('li',[_v("ClientCare shows a list of clients.")]),_v(" "),_c('li',[_v("User requests to delete a specific client in the list by index.")]),_v(" "),_c('li',[_v("ClientCare deletes the client."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
@@ -308,49 +308,49 @@ with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 with(this){return _c('ul',[_c('li',[_v("2a. The list is empty."),_c('br'),_v("\nUse case ends.")]),_v(" "),_c('li',[_v("3a. The given index is invalid.\n"),_c('ul',[_c('li',[_v("3a1. ClientCare shows an error message."),_c('br'),_v("\nUse case resumes at step 2.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Schedule")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC06 - Schedule an appointment with client")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User schedules a date and time to meet with a client")])]),_v(" "),_c('li',[_c('p',[_v("ClientCare sets up the appointment")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_v("User schedules a date and time to meet with a client.")]),_v(" "),_c('li',[_v("ClientCare sets up the appointment."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. Date and time is invalid.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message.")])]),_v(" "),_c('p',[_v("Use case ends.")])]),_v(" "),_c('li',[_c('p',[_v("1b. Date and time has past.")]),_v(" "),_c('ul',[_c('li',[_v("1b1. ClientCare shows an error message.")])]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. Date and time is invalid.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. Date and time has past.\n"),_c('ul',[_c('li',[_v("1b1. ClientCare shows an error message."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Last Met")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC07 - Update client as met")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User marks a client as met")])]),_v(" "),_c('li',[_c('p',[_v("ClientCare updates Last Met date of client")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_v("User marks a client as met.")]),_v(" "),_c('li',[_v("ClientCare updates Last Met date of client."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. Client does not exist.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message.")])]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. Client does not exist.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Use case: Mark")])])}
+with(this){return _c('p',[_c('strong',[_v("Use case: UC08 - Mark appointment")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User marks an appointment with client as done")])]),_v(" "),_c('li',[_c('p',[_v("ClientCare updates appointment has done")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_v("User marks an appointment with client as done.")]),_v(" "),_c('li',[_v("ClientCare updates appointment has done."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("1a. Appointment does not exist.")]),_v(" "),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message.")])]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. Appointment does not exist.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('em',[_v("{More to be added}")])])}
@@ -392,6 +392,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Wed, 6 Mar 2024, 23:41:21 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Thu, 7 Mar 2024, 10:28:16 GMT+8]")])])])}
 }];
   
