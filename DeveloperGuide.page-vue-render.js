@@ -245,7 +245,7 @@ with(this){return _c('ol',[_c('li',[_v("User requests to view all clients.")]),_
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. The list is empty as no clients have been added at all."),_c('br'),_v(" "),_c('ul',[_c('li',[_v("1a1. ClientCare notifies that the list is empty."),_c('br'),_v("\nUse case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. The list is empty as no clients have been added at all.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare lets user know that the list is empty."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. Invalid command usage in the request.\n"),_c('ul',[_c('li',[_v("1b1. ClientCare shows command usage.")]),_v(" "),_c('li',[_v("1b2. User enters new data."),_c('br'),_v("\nSteps 1b1-1b2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC02 - View client details and policies")])])}
@@ -260,7 +260,7 @@ with(this){return _c('ol',[_c('li',[_v("User requests to view a client's details
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. ClientCare detects that the client does not exist or invalid command usage.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message."),_c('br')]),_v(" "),_c('li',[_v("1a2. User enters new data."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. ClientCare detects that the client does not exist.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare lets user know that client does not exist.")]),_v(" "),_c('li',[_v("1a2. User enters new data."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. Invalid command usage in the request.\n"),_c('ul',[_c('li',[_v("1b1. ClientCare shows command usage.")]),_v(" "),_c('li',[_v("1b2. User enters new data."),_c('br'),_v("\nSteps 1b1-1b2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC03 - Add a new client")])])}
@@ -275,7 +275,7 @@ with(this){return _c('ol',[_c('li',[_v("User requests to add new client.")]),_v(
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. ClientCare detects invalid command usage or information.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message.")]),_v(" "),_c('li',[_v("1a2. User enters new data."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. ClientCare detects invalid user information.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows what is wrong with various invalid user information.")]),_v(" "),_c('li',[_v("1a2. User enters new data."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])]),_v(" "),_c('li',[_v("1b. Invalid command usage in the request.\n"),_c('ul',[_c('li',[_v("1b1. ClientCare shows command usage.")]),_v(" "),_c('li',[_v("1b2. User enters new data."),_c('br'),_v("\nSteps 1b1-1b2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])]),_v(" "),_c('li',[_v("1c. Client name already exists.\n"),_c('ul',[_c('li',[_v("1c1. ClientCare lets user know that duplicate names are not allowed.")]),_v(" "),_c('li',[_v("1c2. User enters new data."),_c('br'),_v("\nSteps 1c1-1c2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC04 - Find a client by name")])])}
@@ -290,7 +290,7 @@ with(this){return _c('ol',[_c('li',[_v("User requests to find a specific client 
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("2a. The list is empty as there is no matching name found."),_c('br'),_v("\nUse case ends.")])])}
+with(this){return _c('ul',[_c('li',[_v("2a. The list is empty as there is no matching name found."),_c('br'),_v(" "),_c('ul',[_c('li',[_v("2a1. ClientCare lets user know that the list is empty."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("2b. Invalid command usage in the request.\n"),_c('ul',[_c('li',[_v("2b1. ClientCare shows command usage.")]),_v(" "),_c('li',[_v("2b2. User enters new data."),_c('br'),_v("\nSteps 2b1-2b2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes from step 2.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC05 - Delete a client")])])}
@@ -305,7 +305,7 @@ with(this){return _c('ol',[_c('li',[_v("User requests to "),_c('u',[_v("list all
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("2a. The list is empty."),_c('br'),_v("\nUse case ends.")]),_v(" "),_c('li',[_v("3a. The given index is invalid.\n"),_c('ul',[_c('li',[_v("3a1. ClientCare shows an error message."),_c('br'),_v("\nUse case resumes at step 2.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("2a. The list is empty."),_c('br'),_v(" "),_c('ul',[_c('li',[_v("2a1. ClientCare lets user know that the list is empty."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("3a. The given index is invalid.\n"),_c('ul',[_c('li',[_v("3a1. ClientCare lets user know that client index should be a number.")]),_v(" "),_c('li',[_v("3a2. User enters new data."),_c('br'),_v("\nSteps 3a1-3a2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes at step 2.")])])]),_v(" "),_c('li',[_v("3b. Invalid command usage in the request.\n"),_c('ul',[_c('li',[_v("3b1. ClientCare shows command usage.")]),_v(" "),_c('li',[_v("3b2. User enters new data."),_c('br'),_v("\nSteps 3b1-3b2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes from step 4.")])])]),_v(" "),_c('li',[_v("3c. Client does not exist.\n"),_c('ul',[_c('li',[_v("3c1. ClientCare lets user know that client does not exist.")]),_v(" "),_c('li',[_v("3c2. User enters new data."),_c('br'),_v("\nSteps 3c1-3c2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC06 - Schedule an appointment with client")])])}
@@ -320,7 +320,7 @@ with(this){return _c('ol',[_c('li',[_v("User schedules a date and time to meet w
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. Date and time is invalid.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. Date and time has past.\n"),_c('ul',[_c('li',[_v("1b1. ClientCare shows an error message."),_c('br'),_v("\nUse case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. Date and time is invalid.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare lets user know of valid date and time format.")]),_v(" "),_c('li',[_v("1a2. User enters new data."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. Date and time has past.\n"),_c('ul',[_c('li',[_v("1b1. ClientCare lets user know that it is not possible to schedule an appointment in the past.")]),_v(" "),_c('li',[_v("1b2. User enters new data."),_c('br'),_v("\nSteps 1b1-1b2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1c. Invalid command usage in the request.\n"),_c('ul',[_c('li',[_v("1c1. ClientCare shows command usage.")]),_v(" "),_c('li',[_v("1c2. User enters new data."),_c('br'),_v("\nSteps 1c1-1c2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC07 - Update client as met")])])}
@@ -335,7 +335,7 @@ with(this){return _c('ol',[_c('li',[_v("User marks a client as met.")]),_v(" "),
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. Client does not exist.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message."),_c('br'),_v("\nUse case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. Client does not exist.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare lets user know that client does not exist.")]),_v(" "),_c('li',[_v("1a2. User enters new data."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. Invalid date and time.\n"),_c('ul',[_c('li',[_v("1b1. ClientCare lets user know of correct date and time format.")]),_v(" "),_c('li',[_v("1b2. User enters new data."),_c('br'),_v("\nSteps 1b1-1b2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1c. Date and time is before the last met date.\n"),_c('ul',[_c('li',[_v("1c1. ClientCare confirms if user wants to change last met to an earlier date.")]),_v(" "),_c('li',[_v("1c2. User confirms or rejects."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1d. Invalid command usage in the request.\n"),_c('ul',[_c('li',[_v("1d1. ClientCare shows command usage.")]),_v(" "),_c('li',[_v("1d2. User enters new data."),_c('br'),_v("\nSteps 1d1-1d2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC08 - Mark appointment")])])}
@@ -344,13 +344,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: UC08 - Mark appointment")])
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User marks an appointment with client as done.")]),_v(" "),_c('li',[_v("ClientCare updates appointment has done."),_c('br'),_v("\nUse case ends.")])])}
+with(this){return _c('ol',[_c('li',[_v("User marks an appointment with client as done.")]),_v(" "),_c('li',[_v("ClientCare updates appointment has done and updates last met."),_c('br'),_v("\nUse case ends.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. Appointment does not exist.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message."),_c('br'),_v("\nUse case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. Appointment does not exist or is already marked.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare lets user know that there is no open appointment for this client."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. The client does not exist.\n"),_c('ul',[_c('li',[_v("1b1. ClientCare shows an error message.")]),_v(" "),_c('li',[_v("1b2. User enters new data."),_c('br'),_v("\nSteps 1b1-1b2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1c. Appointment is in the future.\n"),_c('ul',[_c('li',[_v("1c1. ClientCare lets user know that future appointment cannot be marked.")]),_v(" "),_c('li',[_v("1c2. User enters new data."),_c('br'),_v("\nSteps 1c1-1c2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1d. Invalid command usage in the request.\n"),_c('ul',[_c('li',[_v("1d1. ClientCare shows command usage.")]),_v(" "),_c('li',[_v("1d2. User enters new data."),_c('br'),_v("\nSteps 1d1-1d2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('em',[_v("{More to be added}")])])}
@@ -392,6 +392,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Thu, 7 Mar 2024, 10:28:16 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Thu, 7 Mar 2024, 16:04:42 GMT+8]")])])])}
 }];
   
