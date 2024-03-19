@@ -116,6 +116,8 @@
         "editing-a-client-edit": "Editing a client : edit",
         "locating-client-by-name-find": "Locating client by name: find",
         "deleting-a-client-delete": "Deleting a client : delete",
+        "updating-last-met-met": "Updating last met : met",
+        "scheduling-appointments-schedule": "Scheduling appointments : schedule",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
