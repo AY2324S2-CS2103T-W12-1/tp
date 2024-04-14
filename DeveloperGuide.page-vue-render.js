@@ -860,6 +860,6 @@ with(this){return _c('p',[_c('strong',[_v("4. GUI")]),_c('br'),_v("\nDifficulty 
 with(this){return _c('p',[_v("There was also some consideration on how we wanted to handle refreshing the various panels, e.g. viewing the client details as explained in "),_c('a',{attrs:{"href":"#viewing-client-feature"}},[_v("Viewing client feature")]),_v(".")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 0:15:18 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 0:44:36 GMT+8]")])])])}
 }];
   
