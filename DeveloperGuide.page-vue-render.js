@@ -530,7 +530,7 @@ with(this){return _c('ol',[_c('li',[_v("User requests to "),_c('u',[_v("list all
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("2a. User sees that the list is empty.\n"),_c('ul',[_c('li',[_v("2a1. User stops as there is no client to delete.\nUse case ends.")])])]),_v(" "),_c('li',[_v("3a. ClientCare detects that the given command is invalid.\n"),_c('ul',[_c('li',[_v("3a1. ClientCare shows an error message.")]),_v(" "),_c('li',[_v("3a2. ClientCare requests for the correct input.")]),_v(" "),_c('li',[_v("3a3. User enters new data."),_c('br'),_v("\nSteps 3a1-3a3 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes at step 4.")])])]),_v(" "),_c('li',[_v("3b. ClientCare detects that the client does not exist.\n"),_c('ul',[_c('li',[_v("3b1. ClientCare shows an error message."),_c('br'),_v("\nUse case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("2a. User sees that the list is empty.\n"),_c('ul',[_c('li',[_v("2a1. User stops as there is no client to delete."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("3a. ClientCare detects that the given command is invalid.\n"),_c('ul',[_c('li',[_v("3a1. ClientCare shows an error message.")]),_v(" "),_c('li',[_v("3a2. ClientCare requests for the correct input.")]),_v(" "),_c('li',[_v("3a3. User enters new data."),_c('br'),_v("\nSteps 3a1-3a3 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes at step 4.")])])]),_v(" "),_c('li',[_v("3b. ClientCare detects that the client does not exist.\n"),_c('ul',[_c('li',[_v("3b1. ClientCare shows an error message."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC03 - Edit client")])])}
@@ -605,7 +605,7 @@ with(this){return _c('ol',[_c('li',[_v("User requests to "),_c('u',[_v("list all
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("2a. User sees that the list is empty.\n"),_c('ul',[_c('li',[_v("2a1. User stops as there is no client to add a note to.\nUse case ends.")])])]),_v(" "),_c('li',[_v("3a. ClientCare detects that the given command is invalid.\n"),_c('ul',[_c('li',[_v("3a1. ClientCare shows an error message.")]),_v(" "),_c('li',[_v("3a2. ClientCare requests for the correct input.")]),_v(" "),_c('li',[_v("3a3. User enters new data."),_c('br'),_v("\nSteps 3a1-3a3 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes at step 4.")])])]),_v(" "),_c('li',[_v("3b. ClientCare detects that the client does not exist.\n"),_c('ul',[_c('li',[_v("3b1. ClientCare shows an error message."),_c('br'),_v("\nUse case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("2a. User sees that the list is empty.\n"),_c('ul',[_c('li',[_v("2a1. User stops as there is no client to add a note to."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("3a. ClientCare detects that the given command is invalid.\n"),_c('ul',[_c('li',[_v("3a1. ClientCare shows an error message.")]),_v(" "),_c('li',[_v("3a2. ClientCare requests for the correct input.")]),_v(" "),_c('li',[_v("3a3. User enters new data."),_c('br'),_v("\nSteps 3a1-3a3 are repeated until the data entered are correct."),_c('br'),_v("\nUse case resumes at step 4.")])])]),_v(" "),_c('li',[_v("3b. ClientCare detects that the client does not exist.\n"),_c('ul',[_c('li',[_v("3b1. ClientCare shows an error message."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC08 - Clear all client")])])}
@@ -635,7 +635,7 @@ with(this){return _c('ol',[_c('li',[_v("User requests to sort clients by "),_c('
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("1a. ClientCare detects that the given command is invalid.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. ClientCare detects that the given "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("CRITERIA")]),_v(" is invalid.\n"),_c('ul',[_c('li',[_v("1b1. ClientCare shows an error message.\nUse case ends.")])])]),_v(" "),_c('li',[_v("1c. ClientCare detects that the given "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ORDER")]),_v(" is invalid.\n"),_c('ul',[_c('li',[_v("1c1. ClientCare shows an error message.\nUse case ends.")])])])])}
+with(this){return _c('ul',[_c('li',[_v("1a. ClientCare detects that the given command is invalid.\n"),_c('ul',[_c('li',[_v("1a1. ClientCare shows an error message.")]),_v(" "),_c('li',[_v("1a2. User enters new data."),_c('br'),_v("\nSteps 1a1-1a2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1b. ClientCare detects that the given "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("CRITERIA")]),_v(" is invalid.\n"),_c('ul',[_c('li',[_v("1b1. ClientCare shows an error message.")]),_v(" "),_c('li',[_v("1b2. User enters new data."),_c('br'),_v("\nSteps 1b1-1b2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])]),_v(" "),_c('li',[_v("1c. ClientCare detects that the given "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("ORDER")]),_v(" is invalid.\n"),_c('ul',[_c('li',[_v("1c1. ClientCare shows an error message.")]),_v(" "),_c('li',[_v("1c2. User enters new data."),_c('br'),_v("\nSteps 1c1-1c2 are repeated until the data entered are correct."),_c('br'),_v("\nUse case ends.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC10 - Update client as met")])])}
@@ -878,6 +878,6 @@ with(this){return _c('p',[_c('strong',[_v("4. GUI")]),_c('br'),_v("\nDifficulty 
 with(this){return _c('p',[_v("There was also some consideration on how we wanted to handle refreshing the various panels, e.g. viewing the client details as explained in "),_c('a',{attrs:{"href":"#viewing-client-feature"}},[_v("Viewing client feature")]),_v(".")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 13:06:16 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 15 Apr 2024, 14:17:48 GMT+8]")])])])}
 }];
   
